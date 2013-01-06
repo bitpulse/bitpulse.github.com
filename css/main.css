@@ -23,10 +23,15 @@ html, body, .background {
 	padding: 0;
 }
 
+html {
+    background: #79ffd2;
+}
+
 body {
     font-size: 1em;
     line-height: 1.4;
-		color: #fff;
+	color: #fff;
+    background: #262626 url(../img/circles.png) 150px 0 no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -115,45 +120,15 @@ button.sign-up {
 	float: right;
 }
 
-body {
-	background: #79ffd2;
-}
-
-.background {
-	margin: 10px;
-	background: #242424;
-	background: -moz-linear-gradient(-45deg,  #242424 0%, #454545 100%);
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#242424), color-stop(100%,#454545));
-	background: -webkit-linear-gradient(-45deg,  #242424 0%,#454545 100%);
-	background: -o-linear-gradient(-45deg,  #242424 0%,#454545 100%);
-	background: -ms-linear-gradient(-45deg,  #242424 0%,#454545 100%);
-	background: linear-gradient(135deg,  #242424 0%,#454545 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', endColorstr='#454545',GradientType=1 );
-}
-
 .horizontal-spacer-bg {
 	background: transparent url("../img/underline.png") 30px bottom no-repeat;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
 
-.large-circle-bg {
-	width: 1400px;
-	min-height: 790px;
-	margin: 0 auto;
-	background: transparent url("../img/circle_big.png") 60px 45px no-repeat;
-}
- 
-.small-circle-bg {
-	width: 1400px;
-	margin: 0 auto;
-	background: transparent url("../img/circle_small.png") 30px -90px no-repeat;
-}
-
 .form-wrapper-bg {
 	background: rgba(255, 255, 255, 0.1);;
 	height: 100px;
-	margin-top: -200px;
 }
   
 header.container {
@@ -166,7 +141,7 @@ header.container .row {
 }
 
 header.container .row.horizontal-spacer-bg {
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 }
 
 section.container {
