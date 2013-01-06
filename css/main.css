@@ -32,6 +32,8 @@ body {
     line-height: 1.4;
 	color: #fff;
     background: #262626 url(../img/circles.png) 150px 0 no-repeat;
+    border: 10px solid #79ffd2;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
