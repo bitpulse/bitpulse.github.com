@@ -184,7 +184,8 @@ button.sign-up {
 
 .form-wrapper-bg {
 	background: rgba(255, 255, 255, 0.1);;
-	height: 100px;
+	height: 95px;
+    padding-top: 5px;
 }
   
 header.container {
@@ -209,26 +210,31 @@ div.sign-up-form {
    
 div.sign-up-form span {
 	display: inline-block;
-	width: 120px;
-	font-size: 20px;
-	margin-right: 20px;
+	width: 115px;
+	font-size: 18px;
+	margin-right: 10px;
+    margin-top: -10px;
 }
 
 div.sign-up-form input {
 	vertical-align: text-bottom;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 
 div.sign-up-form input[type=text] {
 	background-color: #1a1a1a;
 	color: #fff;
 	border: none;
-	padding: 10px;
+	padding: 12px 10px;
+    width: 280px;
+    height: 21px;
 }
 
 div.sign-up-form .btn {
 	background: #79ffd2;
 	color: #282828;
+    width: 140px;
+    height: 45px;
 }
 
 #features {
@@ -239,23 +245,20 @@ div.sign-up-form .btn {
 }
 
 .featureicon {
-	color:#4c83d6;
-	font-size:56px;
-	margin-bottom:20px;
-	padding:0 20px 0 0;
+	color: #4c83d6;
+	font-size: 56px;
 }
 
 #features h2 {
-	line-height:30px;
+	line-height: 30px;
 	font-weight: 700;
-	padding:0 20px 0 0;
+    margin-top: 0;
 }
 
 #features p {
 	font-size:13px; 
 	line-height:20px;
 	font-weight: bold;
-	padding:10px 20px 0 0;
 }
 
 /* ==========================================================================
