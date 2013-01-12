@@ -3,8 +3,7 @@
 	$(document).ready(function() {
 		$("#parallax .parallax-layer")
 		.parallax({
-		  mouseport: $(".wrapper"),
-		  decay: 0.3
+		  mouseport: $(".wrapper")
 		});
 		
 		mixpanel.track_forms("#subForm", "invite form submission");
