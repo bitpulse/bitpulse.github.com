@@ -293,9 +293,9 @@ div.sign-up-form .btn {
 	position: absolute;
 	left: 50%;
 	z-index: 0;
-	width: 1000px;
+	width: 1300px;
 	height: 1000px;
-	margin-left: -500px;
+	margin-left: -650px;
 	overflow: hidden;
 }
 
@@ -307,8 +307,8 @@ div.sign-up-form .btn {
 
 .small-circle {
     background: transparent url(../img/circle_small.png) 0 0 no-repeat;
-	width: 375px;
-	height: 375px;
+	width: 600px;
+	height: 500px;
 	top: -75px;
 }
 
