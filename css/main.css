@@ -291,10 +291,11 @@ div.sign-up-form .btn {
 
 .parallax-viewport {
 	position: absolute;
-	left: 30%;
+	left: 50%;
 	z-index: 0;
 	width: 1000px;
 	height: 1000px;
+	margin-left: -500px;
 	overflow: hidden;
 }
 
