@@ -61,10 +61,11 @@ html {
 }
 
 body {
+	font-family: 'Dosis', sans-serif;
     font-size: 1em;
     line-height: 1.4;
     color: #fff;
-    background: #262626 url(../img/circles.png) 150px 0 no-repeat;
+    background: #262626;
     box-sizing: border-box;
     border: 10px solid #79ffd2;
     -webkit-animation-name: glow;
@@ -99,7 +100,7 @@ h1 {
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 22px;
 }
 
 /*
@@ -157,6 +158,20 @@ textarea {
     resize: vertical;
 }
 
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus,
+input[type="datetime"]:focus, input[type="datetime-local"]:focus,
+input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus,
+input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus,
+input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus,
+input[type="color"]:focus, .uneditable-input:focus
+{
+	border-color: rgba(121, 255, 210,0.8);
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(121, 255, 210,0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(121, 255, 210,0.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(121, 255, 210,0.6);
+}
+
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
@@ -177,7 +192,7 @@ button.sign-up {
 }
 
 .horizontal-spacer-bg {
-	background: transparent url("../img/underline.png") 30px bottom no-repeat;
+	background: transparent url("../img/underline.png") 20px bottom no-repeat;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
@@ -186,11 +201,11 @@ button.sign-up {
 	background: rgba(255, 255, 255, 0.1);;
 	height: 95px;
     padding-top: 5px;
+	margin-top: 50px;
 }
   
 header.container {
 	min-height: 96px;
-	min-width: 960px;
 }
 
 header.container .row {
@@ -213,7 +228,6 @@ div.sign-up-form span {
 	width: 115px;
 	font-size: 18px;
 	margin-right: 10px;
-    margin-top: -10px;
 }
 
 div.sign-up-form input {
@@ -238,10 +252,15 @@ div.sign-up-form .btn {
 }
 
 #features {
+	margin-top: 45px;
 }
 
 #features .span3 {
+	padding-bottom: 38px;
 	background-position: left bottom;
+}
+
+#features .span3#sdk {
 }
 
 .featureicon {
@@ -251,14 +270,42 @@ div.sign-up-form .btn {
 
 #features h2 {
 	line-height: 30px;
-	font-weight: 700;
+	font-weight: bold;
     margin-top: 0;
 }
 
 #features p {
-	font-size:13px; 
+	font-size:16px; 
 	line-height:20px;
-	font-weight: bold;
+}
+
+.parallax-viewport {
+	position: absolute;
+	left: 30%;
+	z-index: 0;
+	width: 1000px;
+	height: 1000px;
+	overflow: hidden;
+}
+
+.parallax-layer {
+	position: absolute;
+	left: 30%;
+	z-index: 0;
+}
+
+.small-circle {
+    background: transparent url(../img/circle_small.png) 0 0 no-repeat;
+	width: 375px;
+	height: 375px;
+	top: -75px;
+}
+
+.big-circle {
+    background: transparent url(../img/circle_big.png) 0 0 no-repeat;
+	width: 724px;
+	height: 721px;
+	top: 75px;
 }
 
 /* ==========================================================================

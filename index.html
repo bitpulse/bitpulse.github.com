@@ -13,23 +13,20 @@
 
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 		<link rel="shortcut icon" href="favicon.ico">
+		
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/main.css">
-
-		<script src="js/vendor/cufon.js"></script>
-		<script src="js/vendor/font.js"></script>
-		<script type="text/javascript">
-			Cufon.replace('h1');
-			Cufon.replace('h2');
-			Cufon.replace('p');
-			Cufon.replace('span');
-			Cufon.replace('input');
-		</script>
 	</head>
 	<body>
+	
+		<div class="parallax-viewport" id="parallax">
+			<div class="parallax-layer small-circle"></div>
+			<div class="parallax-layer big-circle"></div>		
+		</div>
 
 		<!--[if lt IE 7]>
 				<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -61,7 +58,7 @@
 					<h2>Comment & discuss</h2>
 					<p>Comment on specific events, specific days, weeks, months. Invite your colleagues and discuss events or errors.</p>
 				</div>       
-				<div class="span3 horizontal-spacer-bg">
+				<div class="span3 horizontal-spacer-bg" id="sdk">
 					<div class="featureicon"><img src="img/icon_03.png" alt="Powerful SDKs" /></div>
 					<h2>Powerful SDKs</h2>
 					<p>Grab the SDK for of your choice, and you'll be up and running in no time. Use the request debugger to verify your integration.</p>
@@ -99,7 +96,7 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
 		<script src="js/vendor/bootstrap.min.js"></script>
-		<script src="js/vendor/jquery.videoBG.js"></script>
+		<script src="js/vendor/jquery.parallax.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
 
