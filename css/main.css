@@ -61,7 +61,7 @@ html {
 }
 
 body {
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: normal;
 	letter-spacing: 1px;
     font-size: 1em;
@@ -236,7 +236,7 @@ div.sign-up-form {
    
 div.sign-up-form span {
 	display: inline-block;
-	width: 115px;
+	width: 110px;
 	font-size: 18px;
 	margin-right: 10px;
 }
