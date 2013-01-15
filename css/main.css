@@ -104,7 +104,11 @@ h1 {
 }
 
 h2 {
-	font-size: 22px;
+	font-size: 19px;
+}
+
+p {
+    font-size: 15px;
 }
 
 /*
