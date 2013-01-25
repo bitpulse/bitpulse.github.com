@@ -237,6 +237,10 @@ section.container {
 div.sign-up-form {
 	margin-top: 20px;
 }
+
+div.sign-up-form fieldset {
+	position: relative;
+}
    
 div.sign-up-form span {
 	display: inline-block;
@@ -320,6 +324,12 @@ div.sign-up-form .btn {
 	width: 724px;
 	height: 721px;
 	top: 75px;
+}
+
+.parsley-error-list {
+	position: absolute;
+	color: red;
+	left: 460px;
 }
 
 /* ==========================================================================
