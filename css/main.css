@@ -202,8 +202,8 @@ input[type="color"]:focus, .uneditable-input:focus, .btn:hover
 	height: 100%;
 }   
 
-button.sign-up {
-	float: right;
+input.sign-up {
+    padding: 4px 12px;
 }
 
 .horizontal-spacer-bg {
