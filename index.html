@@ -14,19 +14,15 @@
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 		<link rel="shortcut icon" href="favicon.ico">
 
-		<link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400"/>
 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/buttons.min.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-
-		<div class="parallax-viewport" id="parallax">
-			<div class="parallax-layer small-circle"></div>
-			<div class="parallax-layer big-circle"></div>
-		</div>
 
 		<div class="wrapper">
 
@@ -36,39 +32,45 @@
 
 			<header class="container">
 				<div class="row">
-					<div class="span12">
+					<div class="span12 text-center">
 						<img src="img/bitpulse_logo.png" alt="bitpulse.io" />
 					</div>
 				</div>
-				<div class="row horizontal-spacer-bg">
-					<div class="span12">
-						<h1>Error and behavior logging in the cloud.</h1>
+				<div class="row">
+					<div class="span8 offset2">
+						<h1>The Mistery of the Logger</h1>
 					</div>
 				</div>
 			</header>
 
 			<section class="container">
 
-				<div class="row" id="features">
-					<div class="span3 horizontal-spacer-bg">
-						<div class="featureicon"><img src="img/icon_01.png" alt="App insights" /></div>
-						<h2>App insights</h2>
-						<p>View app insights, errors, events, slice and dice results into beautiful charts - see the heart beat rate of your app.</p>
-					</div>
-					<div class="span3 horizontal-spacer-bg">
-						<div class="featureicon"><img src="img/icon_02.png" alt="Comment & discuss" /></div>
-						<h2>Comment & discuss</h2>
-						<p>Comment on specific events, specific days, weeks, months. Invite your colleagues and discuss events or errors.</p>
-					</div>
-					<div class="span3 horizontal-spacer-bg" id="sdk">
-						<div class="featureicon"><img src="img/icon_03.png" alt="Powerful SDKs" /></div>
-						<h2>Powerful SDKs</h2>
-						<p>Grab the SDK for of your choice, and you'll be up and running in no time. Use the request debugger to verify your integration.</p>
-					</div>
-					 <div class="span3 horizontal-spacer-bg">
-						<div class="featureicon"><img src="img/icon_04.png" alt="Log any JSON object" /></div>
-						<h2>Log any JSON object</h2>
-						<p>Use built-in attributes, or log any sort of JSON object that holds your data. Visualize data using charts and tables.</p>
+				<div class="row">
+					<div class="span8 offset2">
+						<p>
+							The logger is a huge mystery. You see and use it all the time. At the top of your class, a controller, a window, a backend service or within each method.
+						</p>
+						<p>
+							It's the black box that everyone says is so important to use, and you spent time with it. You throw something at it. You try to be as forward thinking as possible. You collect time taken to call an external API or a database. You practically establish a firehose into the logger, and pump it full of valuable data.
+						</p>
+						<p>
+							But do you ever get it back?
+						</p>
+						<p>
+							Sure there was this one time when you got hit really hard with a crash and you just had to figure out what went wrong, so you downloaded the log files and started surfing.
+						</p>
+						<p>
+							But it quickly becomes overwhelming to analyze just a few log files. One of them is too sparse. The other too chatty. You have no good way to correlate what happened at the same time across logs, and you're left with little to no search and filter mechanism.
+						</p>
+						<p>
+							When you finally find something useful buried in log files you're sort of on your own. Sure you can gather findings to a new file and sent around, add to source control or even print. But the interesting part is context. You might not have included sufficient context for others to understand, let alone fix the problem.
+						</p>
+						<p>
+							Your colleagues should be able to use your findings as a starting point - a shortcut to find even more on their own. Not see what you found as the end result.
+						</p>
+						<p>
+							In today's cloud world where each sub-system gets smaller and smaller, but the amount of them has exploded, you find it extremely difficult to monitor what's going on at the application level across your software.
+						</p>
 					</div>
 				</div>
 
@@ -78,14 +80,20 @@
 				<section class="container">
 
 					<div class="row">
-						<div class="span12">
+						<div class="span8 offset2">
 							<div class="sign-up-form">
-								<form action="http://sweetmilkshake.createsend.com/t/r/s/yukjyuy/" method="post" id="subForm" data-validate="parsley">
-									<fieldset class="form-inline">
-										<span>Sign up for an invite</span>
-										<input type="text" name="cm-name" id="name" size="25" placeholder="First name please" data-required="true" data-trigger="change" />
-										<input type="text" name="cm-yukjyuy-yukjyuy" id="yukjyuy-yukjyuy" size="25" placeholder="e.g. me@domain.com" data-required="true" data-type="email" data-trigger="change" />
-										<input type="submit" value="Request invite" class="btn btn-large btn-primary sign-up" onclick="javascript:return $('#subForm').parsley( 'validate' );" />
+								<form action="http://sweetmilkshake.createsend.com/t/r/s/ihiusy/" method="post" id="subForm" data-validate="parsley">
+									<fieldset class="form-inline text-center">
+										<h2>Sign up for early access</h2>
+										<div>
+											<input type="text" name="cm-name" id="fieldName" size="25" placeholder="First name please" data-required="true" data-trigger="change" />
+										</div>
+										<div>
+											<input id="fieldEmail" name="cm-ihiusy-ihiusy" type="email" required size="25" placeholder="e.g. me@domain.com" data-required="true" data-type="email" data-trigger="change" />
+										</div>
+										<div>
+											<input type="submit" value="Sign up" class="button button-rounded button-flat-action sign-up" onclick="javascript:return $('#subForm').parsley( 'validate' );" />
+										</div>
 									</fieldset>
 								</form>
 							</div>
